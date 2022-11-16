@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+(<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -6,6 +6,8 @@
 	<title></title>
 </head>
 <body>
+
+
 <script type="text/javascript">
 	function calcul_moyenne()
 	{
@@ -13,6 +15,7 @@
 var note1=prompt("donner la première note:");
 var note2=prompt("donner la deuxième note:");
 var note3=prompt("donner la troisième note:");
+
 
 var somme=note1*2 + note2*3 + note3*3;
 var moyenne=somme /8;
@@ -40,10 +43,12 @@ else
 	}
 
 	function simple_affichage() {	
-		var prenom=prompt("donner votre prenom");
-		var nom=prompt("donner votre nom");
-		document.write("<div style='border:2px solid blue; background-color:yellow; width:30%; height:220px; margin:auto; text-align:center; padding-top:150px; font-size:2rem;'>");
-		document.write("<p1 style='color:red';>Bonjour "+prenom+" " +nom+"</p1>");	
+		var prenom=prompt("donner votre prénom s'il vous plaît");
+		var nom=prompt("donner votre nom s'il vous plaît");
+		document.write("<div style='border:2px solid red; background-color:white; width:30%; height:220px; margin:auto; text-align:center; padding-top:150px; font-size:2rem;'>");
+	
+
+		document.write("<p1 style='color:red';>Et maintenant que j'ai ces infos, je vais les revendre sur le Darknet !! Je plaisante "+prenom+" " +nom+", Comment trouvez-vous ce 1er TP ?</p1>");	
 		document.write("</div>")
 	}
 
